@@ -1,0 +1,52 @@
+* {
+    margin: 1;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+/* Definindo o fundo da página e fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #252525;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0. 0);
+}
+
+/* Título da mensagem */
+.titulo {
+    font-size: 36px;
+    color: #f17878;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;;
+}
+
+/* Mensagem de aniversário */
+.mensagem {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Imagem centralizada */
+.image img {
+    max-width: 100%;
+    border-radius: 15px;
+    padding-right: 0em;
+}
+
+.spotify-player {
+    text-align: center;
+    margin-top: 15px;
+}
