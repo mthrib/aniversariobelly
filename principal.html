@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .contador {
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      color: #5D6532;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mensagem">
+      <img src="nos.jpg" class="imagem_nossa">
+      <p>Amor, eu te amo tanto, se eu pudesse te daria tudo sempre, sempre irei me esforcar  
+        para te ver feliz, quero sempre ser a parte feliz da sua vida, quero poder te amar para sempre, ter vc ate o fim, e saiba que  
+        sempre estarei do seu lado, nunca te julgarei mas sim te aconcelhar voce é a pessoa que me completa, me define, me ilumina todos so dias,  
+        voce é a melhor namorada desse mundo, e sempre vai ser queria poder escrever mais, mas ficaria a eternidade, isso nao é nem 1% de tudo o que sinto por vc, é algo   
+        inimaginavel, so a sensação, quero que saiba que para sempre vai ser minha princesa, minha deusa, minha pessoa mais precisosa desse mundo</p>
+    </div>
+
+    <div class="spotify-player">
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/5wG7UpUik9lpxUWjQFadPo?utm_source=generator"
+        width="300" height="80" frameBorder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <div class="contador" id="contador"></div>
+  </main>
+  <script>
+    // Data de início do namoro: 17 de fevereiro de 2025
+    const dataInicio = new Date("2025-02-17T00:00:00").getTime();
+
+    const atualizarContador = () => {
+      const agora = new Date().getTime();
+      const tempoJuntos = agora - dataInicio;
+
+      const dias = Math.floor(tempoJuntos / (1000 * 60 * 60 * 24));
+      const horas = Math.floor((tempoJuntos % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutos = Math.floor((tempoJuntos % (1000 * 60 * 60)) / (1000 * 60));
+      const segundos = Math.floor((tempoJuntos % (1000 * 60)) / 1000);
+
+      document.getElementById("contador").innerHTML =
+        `Estamos juntos há ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos!`;
+    };
+
+    atualizarContador();
+    setInterval(atualizarContador, 1000); // Atualiza a cada segundo
+  </script>
+</body>
+</html>
