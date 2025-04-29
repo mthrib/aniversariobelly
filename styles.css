@@ -1,52 +1,78 @@
-* {
-    margin: 1;
-    padding: 2;
-    box-sizing: border-box;
-}
-
-/* Definindo o fundo da página e fonte padrão */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #ffffff;
-    text-align: center;
-    padding: 50px 20px;
+  background-color: black;
+  font-family: Arial, sans-serif
 }
 
-/* Container centralizado */
+a {
+  display: blpck;
+  margin: 0 auto;
+}
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #252525;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0. 0);
+      display: block;
+      margin: 300px auto; /* 100px em cima e margin auto nas laterais */
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: red; /* Verde do seu projeto */
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.5s;
 }
 
-/* Título da mensagem */
-.titulo {
-    font-size: 36px;
-    color: #f17878;
-    margin-bottom: 20px;
-    font-family: 'Courier New', Courier, monospace;;
+.container:hover {
+  background-color: #B22222;
+  color: black;
 }
-
-/* Mensagem de aniversário */
-.mensagem {
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: #ffffff;
-    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-}
-
-/* Imagem centralizada */
-.image img {
-    max-width: 100%;
-    border-radius: 15px;
-    padding-right: 0em;
-}
-
 .spotify-player {
-    text-align: center;
-    margin-top: 15px;
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: black; /* Mesmo fundo do site */
+      padding: 10px 0;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.mensagem p {
+  color:white;
+  width: 250px;.
+  heigth: auto;
+  padding: 10px 20px 30px 20px;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mensagem img {
+  width: 200px;
+  height: auto;
+  border-radius: 10%;
+  padding: 10px;
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+
+.mensagem {
+  background-color: #363636;
+  border-radius: 10px;
+  width: 300px;
+  position: relative;
+  left: 60px;
+  top: 30px;
+}
+
+.contador {
+  position: relative;
+  top: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  color: #ffffff;
 }
