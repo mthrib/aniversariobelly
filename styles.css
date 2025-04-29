@@ -3,20 +3,15 @@ body {
   font-family: Arial, sans-serif
 }
 
-a {
-  display: blpck;
-  margin: 0 auto;
-}
 .container {
       display: block;
-      margin: 300px auto; /* 100px em cima e margin auto nas laterais */
-      padding: 10px 20px;
-      font-size: 16px;
-      background-color: red; /* Verde do seu projeto */
-      color: white;
+      margin: 900px auto; 
+      padding: 50px 30px;
+      font-size: 50px;
+      background-color: #B22222;
+      color: black;
       border: none;
-      border-radius: 8px;
-      cursor: pointer;
+      border-radius: 50px;
       text-decoration: none;
       transition: 0.5s;
 }
@@ -26,41 +21,43 @@ a {
   color: black;
 }
 .spotify-player {
-      position: fixed;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: black; /* Mesmo fundo do site */
-      padding: 10px 0;
-      width: 100%;
-      text-align: center;
-      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
-    }
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -2px 10px rgba(255, 0, 0, 0.2);
+  top: 400px;
+}
 
 .mensagem p {
   color:white;
-  width: 250px;.
-  heigth: auto;
+  width: 70%;
+  height: auto;
+  font-size: 30px;
   padding: 10px 20px 30px 20px;
   position: relative;
   font-weight: bold;
   text-align: center;
+  left: 100px;
 }
 
 .mensagem img {
-  width: 200px;
+  width: 700px;
   height: auto;
   border-radius: 10%;
   padding: 10px;
   position: relative;
-  left: 40px;
+  left: 75px;
   top: 20px;
 }
 
 .mensagem {
   background-color: #363636;
-  border-radius: 10px;
-  width: 300px;
+  border-radius: 20px;
+  width: 90%;
   position: relative;
   left: 60px;
   top: 30px;
