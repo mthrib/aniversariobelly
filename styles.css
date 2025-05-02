@@ -26,7 +26,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 0;
-  width: 200%;
+  width: 100%;
   text-align: center;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
   top: 400px;
@@ -72,4 +72,14 @@ body {
   margin-top: 20px;
   margin-bottom: 100px;
   color: #ffffff;
+}
+.projeto button {
+  background-color: pink;
+  border-radius: 100px;
+  border-color: none;
+  width: 500px;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+  left: 22%;
 }

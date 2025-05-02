@@ -1,0 +1,38 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: url(fundo.png);
+    width: 390px;
+    height: 844;
+}
+
+.cartao {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px 30px 15px;
+    position: absolute;
+    margin: 0;
+    top: 20%;
+    left: 20%;
+    height: 240px;
+    width: 200px;
+}
+
+.rosa {
+    background-color: #e1c0c4;
+    padding: 10px;
+    border-radius: 10px;
+} 
+
+.rosa img {
+    border-radius: 20%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.cartao p {
+    color: rgb(43, 1, 1);
+    font-size: 24px;
+    position: relative;
+    top: -10px;
+    left: 6px
+}
